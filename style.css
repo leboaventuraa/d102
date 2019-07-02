@@ -11,7 +11,7 @@ nav {
 
 }
 
-a { 
+nav a { 
     color: #17386d;
     font-size: 18pt;
     text-decoration: none;
@@ -22,5 +22,29 @@ header {
     background-image: url("images/5kages.jpg");
     background-size: cover;
     height: 400px;
+
+}
+
+section {
+    background-color: #b0946b;
+    display: flex;
+    justify-content: space-around;
+    font-family:'VT323';
+}
+
+div {
+    width: 40%;
+
+}
+
+div ul{
+    list-style-image: url(images/ninja.png);
+
     
 }
+
+ul li:nth-child(even) {
+    color: white;
+
+}
+
