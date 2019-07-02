@@ -17,3 +17,10 @@ a {
     text-decoration: none;
     font-family: 'VT323';
 }
+
+header {
+    background-image: url("images/5kages.jpg");
+    background-size: cover;
+    height: 400px;
+    
+}
