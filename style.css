@@ -39,19 +39,32 @@ div {
 
 div ul{
     list-style-image: url(images/ninja.png);
-
-    
 }
 
 footer div {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-
 }
+
+footer div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 
 ul li:nth-child(even) {
     color: white;
-
 }
 
