@@ -43,6 +43,13 @@ div ul{
     
 }
 
+footer div {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
 ul li:nth-child(even) {
     color: white;
 
